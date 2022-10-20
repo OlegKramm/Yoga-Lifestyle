@@ -49,16 +49,57 @@ span{
     display: block;
     color: #FF6332;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 60px;   
 }
 
-
+p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF6332;
+    letter-spacing: 0.5em;
+}
 .gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.video{
+    padding: 10px;
+    margin: 30px;
+}
+.video-box__body {
+    /* padding: 20px 15px; */
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+  }
+.video-box{
+    position: relative;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+.video-box__title {
+    font-size: 50px;
+    letter-spacing: 25px;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+    position: sticky;
+    top: 10px;
+  }
+  .video-box__text {
+    font-size: 18px;
+    letter-spacing: 15px;
+    position: sticky;
+    top: 70px;
+  }
 /* img:hover {
     transform: scale(1.05);
 } */
@@ -67,7 +108,7 @@ img{
     /* display: block; */
     width: 400px;
     height: 400px;
-    padding: 5px;
+    padding: 5px;border-radius: 15px;
 }
 
   .ava{
@@ -87,7 +128,7 @@ img{
     width: 400px;
     height: 399px;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -98,12 +139,6 @@ img{
     opacity: 1;
   }
     
-    
-
-
-
-
-
 .insta{
     position: relative;
     width: 100%;
