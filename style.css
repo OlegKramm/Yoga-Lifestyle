@@ -171,3 +171,18 @@ footer{
     padding: 9px;
     text-align: center;
 }
+@media (max-width: 600px){
+    span{
+        display: block;
+        color: #FF6332;
+        font-weight: 600;
+        font-size: 30px;   
+    }
+    .insta h2{ 
+        position: absolute;
+        top: 14%;
+        left: 10%;
+        font-size: 30px;
+    }
+
+}
