@@ -181,11 +181,14 @@ footer{
     .insta h2{ 
         position: absolute;
         top: 12%;
-        left: 15%;
+        left: 20%;
         font-size: 30px;
     }
-    .head{
+    .head h1{
         font-size: 35px;
+        font-weight: 600;
     }
-
+    .head span{
+        font-size: 40px;
+    }
 }
