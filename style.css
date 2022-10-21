@@ -180,9 +180,12 @@ footer{
     }
     .insta h2{ 
         position: absolute;
-        top: 14%;
-        left: 10%;
+        top: 12%;
+        left: 15%;
         font-size: 30px;
+    }
+    .head{
+        font-size: 35px;
     }
 
 }
