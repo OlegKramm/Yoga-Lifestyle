@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(251, 251, 251);
+  }
+  header {
+    background-color: rgb(166, 205, 246);
+    text-align: center;
+    padding: 1px 100px 10px;
+    margin-top: 30px;
+    color: white;
+  }
+  main {
+    position: relative;
+    padding: 20px;
+    max-width: 1375px;
+    margin: 0 auto;
+  }
+  .main_btn {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(166, 205, 246);
+    margin: 10px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: aliceblue;
+  }
+  
+  main img {
+    /* display: block; */
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  figure {
+    width: 300px;
+    position: relative;
+    /*Свойство overflow управляет отображением содержания блочного элемента, 
+          если оно целиком не помещается и выходит за область заданных размеров.*/
+    overflow: hidden;
+  }
+  figure h4 {
+    margin: 13px 0px 28px 0;
+    font-size: 15px;
+    padding: 0 22px 0 22px;
+  }
+  
+  figure img {
+    display: block;
+    width: 100%;
+    transition: 0.5s;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.5s;
+  }
+  
+  figure:hover figcaption {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  
+  figure:hover img {
+    transform: scale(1.3);
+  }
+  
